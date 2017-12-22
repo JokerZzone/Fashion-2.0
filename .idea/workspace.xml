@@ -6,22 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4bf5af-e0a9-40df-9aca-dc9dba2e53df" name="Default" comment="1.0.0-wz">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="ad4bf5af-e0a9-40df-9aca-dc9dba2e53df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/controller/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/controller/CategoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/controller/TopicController.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/controller/TopicController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/dao/CategoryMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/dao/TopicMapper.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/dao/TopicMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/entity/Category.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/model/Category.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/entity/Topic.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/model/Topic.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/mapper/Category.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/mapper/Category.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/service/CategoryService.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/service/CategoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/service/TopicService.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/service/TopicService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/service/impl/CategoryServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/service/impl/TopicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/service/impl/TopicServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lanou/util/JspWriter.java" afterPath="$PROJECT_DIR$/src/main/resources/com/lanou/util/JspWriter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
       <change beforePath="$PROJECT_DIR$/target/Fashion.war" afterPath="$PROJECT_DIR$/target/Fashion.war" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/controller/CategoryController.class" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/controller/CategoryController.java" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/controller/CategoryController.java" />
@@ -31,10 +17,6 @@
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/CategoryMapper.java" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/TopicMapper.class" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/TopicMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/TopicMapper.java" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/dao/TopicMapper.java" />
-      <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/entity/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/entity/Category.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/entity/Topic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/entity/Topic.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/mapper/Category.xml" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/mapper/Category.xml" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/service/CategoryService.class" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/service/CategoryService.class" />
       <change beforePath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/service/CategoryService.java" afterPath="$PROJECT_DIR$/target/Fashion/WEB-INF/classes/com/lanou/service/CategoryService.java" />
@@ -55,10 +37,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/target/classes/com/lanou/dao/CategoryMapper.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/dao/TopicMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/lanou/dao/TopicMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/dao/TopicMapper.java" afterPath="$PROJECT_DIR$/target/classes/com/lanou/dao/TopicMapper.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/entity/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/entity/Category.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/entity/Topic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/entity/Topic.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/mapper/Category.xml" afterPath="$PROJECT_DIR$/target/classes/com/lanou/mapper/Category.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/service/CategoryService.class" afterPath="$PROJECT_DIR$/target/classes/com/lanou/service/CategoryService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lanou/service/CategoryService.java" afterPath="$PROJECT_DIR$/target/classes/com/lanou/service/CategoryService.java" />
@@ -1121,12 +1099,20 @@
       <workItem from="1513474224063" duration="84153000" />
       <workItem from="1513783411873" duration="93000" />
       <workItem from="1513783529759" duration="11874000" />
-      <workItem from="1513943245048" duration="6036000" />
+      <workItem from="1513943245048" duration="6059000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.0-wz">
+      <created>1513954462505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513954462505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136480000" />
+    <option name="totallyTimeSpent" value="136503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
