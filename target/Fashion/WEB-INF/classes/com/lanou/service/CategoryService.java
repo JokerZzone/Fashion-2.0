@@ -1,6 +1,6 @@
 package com.lanou.service;
 
-import com.lanou.entity.Category;
+import com.lanou.model.Category;
 
 import java.util.List;
 
@@ -11,6 +11,10 @@ import java.util.List;
  */
 public interface CategoryService {
 
-    //实现首页加载时的分类展示
-    public List<Category> categoryShowInNav();
+    //根据parentId查找一级分类
+    List<Category> findFirstCat(int parentId);
+
+    //根据parentId查找二级和三级分类
+    List<Object> findSecondAndThirdCat(int parentId);
+
 }

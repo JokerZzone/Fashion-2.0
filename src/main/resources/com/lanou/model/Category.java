@@ -1,4 +1,4 @@
-package com.lanou.entity;
+package com.lanou.model;
 
 import java.io.Serializable;
 
@@ -9,13 +9,11 @@ import java.io.Serializable;
  */
 public class Category implements Serializable{
     private int catId;
-    private int parentId;
     private String catName;
-    private String catDesc;
+    private int parentId;
     private String style;
-    private int sortOrder;
-    private int showInNav;
     private int isShow;
+    private int sortOrder;
 
     public Category() {
     }
@@ -34,14 +32,6 @@ public class Category implements Serializable{
 
     public void setCatName(String catName) {
         this.catName = catName;
-    }
-
-    public String getCatDesc() {
-        return catDesc;
-    }
-
-    public void setCatDesc(String catDesc) {
-        this.catDesc = catDesc;
     }
 
     public String getStyle() {
@@ -66,14 +56,6 @@ public class Category implements Serializable{
 
     public void setSortOrder(int sortOrder) {
         this.sortOrder = sortOrder;
-    }
-
-    public int getShowInNav() {
-        return showInNav;
-    }
-
-    public void setShowInNav(int showInNav) {
-        this.showInNav = showInNav;
     }
 
     public int getIsShow() {

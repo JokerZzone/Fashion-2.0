@@ -18,14 +18,14 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"/>
 		<property name="mapperLocations" value="classpath:com/lanou/mapper/*.xml"/>
-		<property name="typeAliasesPackage" value="com.lanou.entity"/>
+		<property name="typeAliasesPackage" value="com.lanou.model"/>
 	</bean>
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.lanou.dao"/>
 	</bean>
 
 	<!-- 开启事务管理，并开启扫描 -->
-	<bean id="" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
 	<tx:annotation-driven transaction-manager="transactionManager"/>

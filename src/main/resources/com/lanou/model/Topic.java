@@ -1,4 +1,4 @@
-package com.lanou.entity;
+package com.lanou.model;
 
 import java.io.Serializable;
 

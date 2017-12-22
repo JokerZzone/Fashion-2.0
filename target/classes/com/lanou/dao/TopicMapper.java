@@ -1,6 +1,6 @@
 package com.lanou.dao;
 
-import com.lanou.entity.Topic;
+import com.lanou.model.Topic;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -11,5 +11,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TopicMapper {
 
-    public Topic findTemplateByTopicId(int topicId);
+    Topic findTemplateByTopicId(int topicId);
 }

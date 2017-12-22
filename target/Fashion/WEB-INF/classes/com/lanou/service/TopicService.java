@@ -1,6 +1,6 @@
 package com.lanou.service;
 
-import com.lanou.entity.Topic;
+import com.lanou.model.Topic;
 
 /**
  * Created by joker on 2017/12/18
@@ -9,5 +9,5 @@ import com.lanou.entity.Topic;
  */
 public interface TopicService {
 
-    public Topic getTemplate(int topicId);
+    Topic getTemplate(int topicId);
 }

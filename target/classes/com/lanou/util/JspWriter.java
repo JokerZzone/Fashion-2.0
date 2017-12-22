@@ -1,6 +1,6 @@
 package com.lanou.util;
 
-import com.lanou.entity.Topic;
+import com.lanou.model.Topic;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
