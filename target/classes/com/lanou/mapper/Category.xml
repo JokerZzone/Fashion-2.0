@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.dao.CategoryMapper">
+    <cache type="com.lanou.redis.RedisCache"/>
+    <!-- 根据parentId查找所有的一级分类 -->
+    <select id="findAllByParentId" resultMap="all" useCache="true">
+        <![CDATA[
+            SELECT
+              *
+            FROM
+              category
+            WHERE
+              parent_id = 0;
+        ]]>
+    </select>
+    <resultMap id="all" type="Category">
+        <id column="cat_id" property="catId" javaType="int"/>
+        <result column="cat_name" property="catName" javaType="string"/>
+        <result column="cat_desc" property="catDesc" javaType="string"/>
+        <result column="parent_id" property="parentId" javaType="int"/>
+        <result column="sort_order" property="sortOrder" javaType="int"/>
+        <result column="show_in_nav" property="showInNav" javaType="int"/>
+        <result column="is_show" property="isShow" javaType="int"/>
+        <result column="style" property="style" javaType="string"/>
+    </resultMap>
+
+</mapper>
